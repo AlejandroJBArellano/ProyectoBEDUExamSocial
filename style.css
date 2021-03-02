@@ -1,0 +1,27 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    height: 71px;
+    margin-top: -1rem;
+}
+.contacto {
+    background-color: #3a5aff;
+    box-shadow:0px 1px 7px 0px #292929;
+    -moz-box-shadow:0px 1px 7px 0px #292929;
+    -webkit-box-shadow:0px 1px 7px 0px #292929;
+}
+.nav-item-css {
+    margin: .1rem;
+}
+.text-banner {
+    font-size: 24px;
+    line-height: 31px;
+    color: #544837;
+}
+.input-form {
+    
+}
+.enviar {
+    background-color: #3a5aff;
+}

@@ -1,0 +1,5 @@
+# lo que hace el .gitignore es que no toa en cuenta todos los archivos que estén enlistados en 
+# este archivo de texto
+Lista de clases.txt
+img
+videos

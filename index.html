@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            border: 2px solid black;
-        }
-    </style>
-</head>
-<>
-    <header>
-        <h1>Nombre de página</h1>
-        <!-- aquí va la interacción del perfil del usuario -->
-        <nav>
-            <ul>
-                <li>Ctegorías</li>
-                <li>tipos de exámenes</li>
-            </ul>
-        </nav>
-        <a href="#">Create</a>
-        <a href="#">log in</a>
-        <a href="#">sign in</a>
-    </header>
-    <!-- aquí van las áreas del conocimiento a desarrollar (en grid)-->
-    <div class="conocimiento"></div>
-        <div class="areas">mat</div>
-        <div class="areas">histoai</div>
-        <div class="areas">lenguas</div>
-        <div class="areas">coding</div>
-        <div class="areas">arte pictórico</div>
-        <div class="areas">etc</div>
-        <div class="areas">ec</div>
-        <div class="areas">cec</div>
-        <div class="areas">ec</div>
-    </div>
-    <section class="recientes">
-    </section>
-    <section class="ambiente">
-        <h3>Ayúdanos a salvar más árboles</h3>
-    </section>
-    <section class="choice">
-        <h3>¿Por qué elegirnos?</h3>
-        <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quam.
-        </article>
-    </section>
-    <footer>
-        <section class="nosotros">
-
-        </section>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>ExamSocial</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img class="logo"src="img/Logo final (1).png" alt="ExamSocial">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item nav-item-css active">
+                            <a class="nav-link border border-dark rounded" href="#">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item nav-item-css">
+                            <a class="nav-link border border-dark rounded" href="#">Conócenos</a>
+                        </li>
+                        <li class="nav-item nav-item-css contacto">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h1>¡Aprendemos en comunidad!</h1>
+                        <p class="text-banner">Haz y resuelve exámenes de cualquier materia... ¡pon a prueba tus conocimientos!</p>
+                        <p class="text-center text-banner">Regístrate para comenzar</p>
+                        <form action="POST" class="d-inline">
+                            <input class="input-form px-3 my-1" type="name" placeholder="Nombre" required>
+                            <input class="input-form px-3 my-1" type="email" placeholder="Correo electrónico" required><br>
+                            <button type="submit" class="btn align-self-end rounded ml-auto mt-2 enviar">Enviar</button>
+                        </form>
+                    </div>  
+                    <div class="col-sm">
+                        <img class="img-fluid" src="img/use-your-brain.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
 </html>
