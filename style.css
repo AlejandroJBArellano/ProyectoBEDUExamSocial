@@ -1,6 +1,9 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    width: 100%;
+}
 .logo {
     height: 71px;
     margin-top: -1rem;
