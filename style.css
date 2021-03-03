@@ -19,9 +19,81 @@
     line-height: 31px;
     color: #544837;
 }
+.img {
+    max-width: 100%;
+}
 .input-form {
     
 }
 .enviar {
     background-color: #3a5aff;
+    color: rgb(245, 245, 245);
+}
+.section-title-2-p{
+    font-size: 24px;
+    line-height: 31px;
+}
+.section-title-2 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 100%;
+    color: #2f281e;
+}
+.row .col-sm {
+    font-size: 24px;
+    line-height: 31px;
+    color: #544837;
+    font-weight: normal;
+}
+.row .col-sm h1 {
+    font-weight: 800;
+    line-height: 100px;
+}
+body > main > section.my-5 > div > div > div > div.col-sm.mt-sm-4 > ul {
+    list-style: url(img/triangulo-final.png) square;
+}
+.row .col-sm .img-2 {
+    width:39.875rem;
+    height: 26.125rem;
+}
+.row .col-md-4 .card .card-img-top {
+    width: auto;
+    height: 285px;
+}
+.row .col-md-4 .card .card-img-top img {
+    overflow: hidden;
+}
+.row .col-sm-4 .card-color {
+    background: rgba(58, 90, 255, 0.2);
+}
+.row .col-sm-4 .card-body .card-title{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    color: #2f281e;
+}
+.row .col-sm-4 .card-body .card-text{
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+}
+ul li::marker {
+    list-style-image: url(/img/triangulo-final.png);
+}
+footer > .navbar {
+    background: rgba(58, 90, 255, 0.2);
+}
+footer div .creators {
+    font-size: 24px;
+    line-height: 31px;
+    color: #544837;
+}
+footer div .creators ul li {
+    display: inline;
+}
+footer div .creators ul li:first-child {
+    border-right: solid 3px #544837;
+}
+body > footer > .navbar {
+    background: rgba(58, 90, 255, 0.2);
 }

@@ -6,6 +6,7 @@
         <link rel="shortcut icon" type="image/jpg" href="img/favicon-socialexam.ico">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <title>ExamSocial</title>
@@ -14,46 +15,136 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img class="logo"src="img/Logo final (1).png" alt="ExamSocial">
+                    <img class="logo ml-0 ml-sm-5"src="img/Logo final (1).png" alt="ExamSocial">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mr-1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse mr-5" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item nav-item-css active">
                             <a class="nav-link border border-dark rounded" href="#">Inicio<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item nav-item-css">
-                            <a class="nav-link border border-dark rounded" href="#">Conócenos</a>
+                            <a class="nav-link border border-dark text-dark rounded" href="#">Conócenos</a>
                         </li>
                         <li class="nav-item nav-item-css contacto">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link text-white" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
         <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <h1>¡Aprendemos en comunidad!</h1>
-                        <p class="text-banner">Haz y resuelve exámenes de cualquier materia... ¡pon a prueba tus conocimientos!</p>
-                        <p class="text-center text-banner">Regístrate para comenzar</p>
-                        <form action="POST" class="d-inline">
-                            <input class="input-form px-3 my-1" type="name" placeholder="Nombre" required>
-                            <input class="input-form px-3 my-1" type="email" placeholder="Correo electrónico" required><br>
-                            <button type="submit" class="btn align-self-end rounded ml-auto mt-2 text-white enviar">Enviar</button>
-                        </form>
-                    </div>  
-                    <div class="col-sm">
-                        <img class="img-fluid" src="img/use-your-brain.jpg" alt="">
+            <section>
+                <div class="container-fluid">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-sm">
+                                <h1 class="text-wrap">¡Aprendemos en comunidad!</h1>
+                                <p class="text-banner">Haz y resuelve exámenes de cualquier materia... ¡pon a prueba tus conocimientos!</p>
+                                <p class="text-banner">Regístrate para comenzar</p>
+                                <form class="">
+                                    <div class="form-group">
+                                        <label class="mb-0" for="exampleInputName1">Nombre</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mb-0" for="exampleInputEmail1">Correo electrónico</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                    </div>                                              
+                                    <button type="submit" class="btn enviar">Submit</button>
+                                </form>
+                            </div>  
+                            <div class="col-sm">
+                                <img class="img rounded my-5" src="img/use-your-brain.jpg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="mt-5 mb-3">
+                <p class="text-center text-black-50 section-title-2-p">Aprendizaje a la medida</p>
+                <h2 class="text-center mb-4 section-title-2">Conoce nuestro método</h2>
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img class="img rounded my-4" src="img/section-2.jpg" alt="">
+                            </div>
+                            <div class="col-sm mt-sm-4">
+                                <p>Somos una plataforma de autoaprendizaje colaborativo en la que practicas lo que sabes resolviendo exámenes y también elaborando los tuyos para compartirlos con la comunidad.</p>
+                                <ul class="mx-4 mt-4 mb-0">
+                                    <li>Encuentra exámenes ordenados por nivel y materia.</li>
+                                    <li>Acumula puntos de estudiante y accede a contenido exclusivo.</li>
+                                    <li>Conoce a profesionistas en todas las áreas y aprende con sus exámenes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-3">
+                <div class="container-fluid">
+                    <div class="row mb-5">
+                        <div class="col-md-4 mt-4">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="img/first-card.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body card-color">
+                                    <h5 class="card-title">Estimula tu aprendizaje</h5>
+                                    <p class="card-text">Cuando aprendes en comunidad, tienes una red de apoyo y de crecimiento continuo... ¡es más divertido! <i class="em em-nerd_face" aria-role="presentation" aria-label="NERD FACE"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="img/second-card.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body card-color">
+                                    <h5 class="card-title">Estudia a tu nivel y ritmo</h5>
+                                    <p class="card-text">Encuentra exámenes de todos los niveles y materias en un mismo espacio; estudia en tus tiempos libres y en cualquier lugar en donde estés.<i class="em em-pencil2" aria-role="presentation" aria-label="PENCIL"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="img/third-card.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body card-color">
+                                    <h5 class="card-title">Mientras aprendes, ayudas</h5>
+                                    <p class="card-text">Los exámenes digitales son también nuestra propuesta para eliminar el papel en clase, es una forma de reducir el impacto ambiental y salvar árboles. <i class="em em-recycle" aria-role="presentation" aria-label="BLACK UNIVERSAL RECYCLING SYMBOL"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer class="container-md mx-auto">
+            <div class="navbar navbar-expand-lg navbar-light mb-3 py-3">
+                <a class="navbar-brand" href="#">
+                    <img class="logo ml-2"src="img/Logo final (1).png" alt="ExamSocial">
+                </a>
+                <div class="collapse navbar-collapse mr-5  mr-sm-0" id="navbarNav">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item nav-item-css px-3 active">
+                            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item nav-item-css px-3">
+                            <a class="nav-link text-dark" href="#">Conócenos</a>
+                        </li>
+                        <li class="nav-item nav-item-css px-3">
+                            <a class="nav-link text-dark" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="creators ml-sm-2 mr-2">
+                    <p class="my-auto">Hecho con <i class="em em-hearts" aria-role="presentation" aria-label="BLACK HEART SUIT"></i> por</p>
+                    <ul class="pl-0 mb-0">
+                        <li class="pr-1">Alejandro</li>
+                        <li class="pr-1">Khiabet</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
         <script src="app.js"></script>
